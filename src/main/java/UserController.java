@@ -10,7 +10,7 @@ import java.util.List;
 // -> może zawierać składowe statyczne
 public interface UserController {
     public static List<User> users = new ArrayList<>();
-
+    public void registerUser();
     public void registerUser(
             int userId,
             String name,
